@@ -18,9 +18,15 @@ footer {
 
 h2 {
     text-align: left;
+    margin-left: 10px;
     margin-bottom: 0px;
     margin-top: 1.5em;
 }
+
+hr {
+    margin-left: 10px;
+}
+
 ul {
     margin-bottom: 3em;
 }
