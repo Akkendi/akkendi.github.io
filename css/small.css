@@ -1,0 +1,57 @@
+body {
+    height: 100%;
+    text-align: center;
+    min-width: 350px;
+     
+}
+
+footer, header {
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: #fff;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+header img {
+    width: 180px;
+    margin-top: 5px;
+    box-shadow: 0 0 10px 3px rgb(117, 117, 117);
+}
+
+footer {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 1.5em;
+}
+
+hr {
+    margin-left: 10px;
+}
+
+ul {
+    margin-bottom: 3em;
+}
+
+nav {
+    text-align: left;
+}
+
+#container {
+    display: inline-block;
+    width: 750px;
+    max-width: 100%;
+}
+
+
+
