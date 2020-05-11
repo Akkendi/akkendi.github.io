@@ -14,7 +14,7 @@ main section {
     border-radius: 10px;
     border: 1px solid #bbb;
 	padding: 0 1rem;
-	background-color: #eee;
+    background-color: #eee;
 }
 
 footer, header {
@@ -33,4 +33,17 @@ img {
     margin-right: auto;
     width: 350px;
     height: auto;
+}
+
+h3 {
+    background-color: black;
+    max-width: 350px;
+    margin: 15px auto;
+    color: white;
+    border-radius: 5px;
+}
+
+p {
+    max-width: 450px;
+    margin: 10px auto; 
 }
