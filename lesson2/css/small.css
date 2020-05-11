@@ -29,6 +29,7 @@ footer, header {
 img {
     border-radius: 10px;
     display: block;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 350px;
@@ -39,6 +40,7 @@ h3 {
     background-color: black;
     max-width: 350px;
     margin: 15px auto;
+    padding: 3px 0;
     color: white;
     border-radius: 5px;
 }
@@ -46,4 +48,9 @@ h3 {
 p {
     max-width: 450px;
     margin: 10px auto; 
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
 }
