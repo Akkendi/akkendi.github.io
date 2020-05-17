@@ -41,19 +41,17 @@ header {
     color: rgb(101, 34, 178);
 }
 .logo a h1 span:nth-child(10) {
+    font-family: 'Pangolin', cursive;
     font-size: 70%;
     letter-spacing: 15px;
+    font-size: 0.95em;
 }
 
 
 .logo a {
     color: white;
     text-decoration: none;
-}
-
-h1 {
-    line-height: 0.9em;
-    text-size-adjust: 100px;
+    line-height: 1.6em;
 }
 
 nav {

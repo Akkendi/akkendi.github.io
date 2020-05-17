@@ -6,11 +6,12 @@
     <title>Design Principles</title>
 
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <!--'thehotnesssky.com' is free to use-->
 
@@ -19,7 +20,7 @@
         <div class="logo">
             <a href="index.html">
                 <h1>The
-                    <br><span>H</span><span>o</span><span>t</span><span>n</span><span>e</span><span>s</span><span>s</span><br><span><i>Sky</i></span></h1>
+                    <br><span>H</span><span>o</span><span>t</span><span>n</span><span>e</span><span>s</span><span>s</span><br><span>Sky</span></h1>
             </a>
 
         </div>        
@@ -32,8 +33,49 @@
         </ul>
     </nav>
     <main>
-        
+        <style>
+            main {
+                display: grid;
+                grid-template-columns: auto;
+            }
+            main section {
+                margin: 0.5rem;
+                border-radius: 10px;
+                border: 1px solid #bbb;
+	            padding: 0 1rem;
+                background-color: #eee;
+            }
+            main section ul {
+                text-align: left;
+            }
 
+            @media only screen and (min-width: 37.5em) {
+                main {
+                grid-template-columns: auto auto auto;
+            }
+                
+            }
+        </style>
+        <section>
+           <h2>A description of the target audience</h2>
+           <p>The existing content on the site is attempting to please all audiences – those who want local weather, those who want to understand the weather, and those who ...</p>
+        </section>
+        <section>
+            <h2>Two personas</h2>
+            <h3>What is a persona?</h3>
+            <p>Personas are a way to help organisations understand their potential and existing audience in a more personal way.</p>
+        </section>
+        <section>
+            <h2>At least five listed scenarios</h2>
+            <ul>
+                
+                <li>Does that store carry a polo shirt in my size? What color options exist? Price?</li>
+                <li>How do I make a CSS-driven drop-down navigation bar?</li>
+                <li>I need to transfer funds from one account to another at my bank.</li>
+                <li>Who won the game last night? What was the score?</li>
+                <li>What's the weather going to be this weekend at the trail I'm planning to hike?</li>
+            </ul>
+        </section>
     </main>
     <footer>
         &copy; 2020 | Akkendi S. Ayvaz | Russia

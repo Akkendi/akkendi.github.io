@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <!--'thehotnesssky.com' is free to use-->
@@ -32,7 +33,46 @@
         </ul>
     </nav>
     <main>
-        
+        <style>
+            main {
+                display: grid;
+            }
+            main ul li{
+                padding: 0;
+                margin-right: 40px;
+                max-width: 600px;
+                list-style-type: none;
+                
+            }
+            main ul li:nth-child(1) {
+                color: white;
+                background-color: black;
+            }
+            main ul li:nth-child(2) {
+                color: black;
+                background-color: skyblue;
+            }
+            main ul li:nth-child(3) {
+                border: 1px solid black;
+                box-sizing: border-box;
+                
+            }
+            main ul li:nth-child(4) {
+                text-shadow: 0px 4px 2px gray;
+            }
+            @media only screen and (min-width: 37.5em) {
+                main {
+                grid-template-columns: auto auto;
+            }
+        </style>
+        <h2>Colors can be changed<br>
+        <small>I like cool and easy colors.</small></h2>
+        <ul>
+            <li type="circle">The Header and Footer will be black</li>
+            <li type="circle">Navigation bar - "skyblue" color</li>
+            <li type="circle">Background - "white" color</li>
+            <li type="circle">Design of the hover will be "text-shadow"</li>
+        </ul>
 
     </main>
     <footer>
