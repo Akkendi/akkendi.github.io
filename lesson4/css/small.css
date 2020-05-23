@@ -10,13 +10,12 @@ footer, header {
     background-color: black;
     color: #fff;
     /*margin: 1.5rem auto;*/
-    /*padding: 1rem;*/
+    padding: 1rem;
     text-align: center;
 }
 header {
     display: grid;
-    grid-template-columns: 1fr auto;
-    margin-bottom: em;
+    grid-template-columns: auto auto;
 }
 
 .logo a h1 span:nth-child(2) {
@@ -54,6 +53,11 @@ header {
     line-height: 1.6em;
 }
 
+header img {
+    width: 100px;
+    height: auto;
+}
+
 nav {
 	background-color: skyblue;
     text-align: center;
@@ -85,4 +89,29 @@ nav a:hover {
 
 main span:first-child {
     color: dodgerblue;
+}
+
+.responsive li {
+    display: block;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 50px 0 0 0;
+}
+  
+.contentbox {
+    display: block;
+    margin: 15px auto;
+    border: 1px dashed #444;
+    padding: 15px;
+    background-color: #eee;
+    font-family: 'Pangolin', cursive;
+    max-width: 80%;
+}
+
+footer {
+    margin-top: 30px;
 }

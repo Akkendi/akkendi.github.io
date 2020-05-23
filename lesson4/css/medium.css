@@ -5,4 +5,12 @@
     nav ul li { 
         flex: 1 1 100%; 
     }
+
+    nav li:first-child {
+        display: none;
+    }
+
+    footer {
+        max-width: 90%;
+    }
 }
