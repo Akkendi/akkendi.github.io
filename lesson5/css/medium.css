@@ -1,0 +1,27 @@
+@media only screen and (min-width: 37.5em) {
+    nav ul { 
+        display: flex; 
+    }
+    nav ul li {
+        display: block;
+        flex: 1 1 100%; 
+    }
+
+    nav li:first-child {
+        display: none;
+    }
+
+    .hero {
+        position: relative;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .forecast {
+        display: ;
+    }
+
+    footer {
+        max-width: 90%;
+    }
+}

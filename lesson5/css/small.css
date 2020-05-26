@@ -1,0 +1,161 @@
+body {
+    height: 100%;
+    text-align: center;
+    min-width: 320px;
+    font-family: 'Raleway', sans-serif;
+     
+}
+
+footer, header {
+    background-color: black;
+    color: #fff;
+    /*margin: 1.5rem auto;*/
+    padding: 1rem;
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: center; 
+}
+
+.logo a h1 span:nth-child(1) {
+    color: rgb(190, 32, 32);
+}
+.logo a h1 span:nth-child(2) {
+    color: rgb(202, 108, 19);
+}
+.logo a h1 span:nth-child(3) {
+    color: rgb(255, 251, 0);
+}
+.logo a h1 span:nth-child(4) {
+    color: rgb(39, 178, 34);
+}
+.logo a h1 span:nth-child(5) {
+    color: rgb(34, 173, 178);
+}
+.logo a h1 span:nth-child(6) {
+    color: rgb(34, 72, 178);
+}
+.logo a h1 span:nth-child(7) {
+    color: rgb(101, 34, 178);
+}
+/*.logo a h1 span:nth-child(10) {
+    font-family: 'Pangolin', cursive;
+    font-size: 70%;
+    letter-spacing: 15px;
+    font-size: 0.95em;
+}*/
+
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    line-height: 1.6em;
+}
+
+.motto {
+    font-family: 'Pangolin', cursive;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+	background-color: skyblue;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li:first-child {
+    display: block;
+}
+
+nav li {
+    display: none;
+}
+
+nav ul li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+
+nav a:hover {
+    font-size: 1rem;
+    /*text-shadow: 0px 0px 5px rgba(255,255,255,0.9);*/
+    background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));    
+}
+
+.responsive li {
+    display: block;
+}
+
+/*main span:first-child {
+    color: dodgerblue;
+}*/
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 50px 0 0 0;
+}
+  
+.contentbox {
+    display: block;
+    margin: 15px auto;
+    border: 1px dashed #444;
+    padding: 15px;
+    background-color: #eee;
+    font-family: 'Pangolin', cursive;
+    max-width: 80%;
+}
+
+.hero {
+    position: relative;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.weather_summery {
+    font-family: 'Pangolin', cursive;
+    position: absolute;
+    /*width: auto;
+    /height: auto;*/
+    top: 10%;
+    left: 5%;
+    line-height: 6px;
+    background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));
+    box-shadow: 0 5px 25px #ffffff;
+    color: black;
+    /opacity: 0.5;
+    padding: 1rem 2rem;
+    
+}
+
+.forecast{
+    display: none;
+}
+
+footer {
+    margin: 15px auto;
+    padding: 5px;
+    margin-top: 30px;
+}
