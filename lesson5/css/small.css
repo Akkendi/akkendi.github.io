@@ -18,6 +18,10 @@ header {
     justify-content: center; 
 }
 
+.point {
+    background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));
+}
+
 .logo a h1 span:nth-child(1) {
     color: rgb(190, 32, 32);
 }
@@ -57,16 +61,24 @@ header {
     font-family: 'Pangolin', cursive;
 }
 
+.logo-icon {
+    box-sizing: border-box;
+}
+
 header img {
     width: 100px;
     height: auto;
+}
+
+.ham {
+    box-sizing: border-box;
 }
 
 nav {
 	background-color: skyblue;
     text-align: center;
     box-shadow: 0 2px 15px gray;
-    padding: 5px;
+    padding: 0;
 }
 
 nav ul {
@@ -90,7 +102,7 @@ nav ul li a {
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
-	font-size: 0.95rem;
+    font-size: 0.95rem;
 }
 
 nav a:hover {
