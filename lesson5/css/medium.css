@@ -19,30 +19,62 @@
 
     .forecast {
         display: block;
-
     }
 
     .forecast_table {
-        margin-left:auto; 
-        margin-right:auto;
-        /*border-spacing: ;*/
+        width: 80%;
+        padding: 20px;
+        margin-left: auto; 
+        margin-right: auto;
+        border: 1px solid black;
+        background-color: skyblue
     }
     .forecast_table th, td {
-        border: 1px solid black;
-        padding: 10px 20px;
+        border: 1px solid rgb(0, 0, 0);
+        padding: auto;
     }
+
+    .forecast_table td {
+        background-color: snow;
+    }
+
     .forecast_table .days {
         background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));
     }
+
     .forecast_table tr img {
+        margin-top: 3px;
         width: 40px;
     }
-    .forecast_table .forecast td {
-        background-color: white;
-        padding-top: 20px;
+
+    .article {
+        width: 80%;
+        margin: 40px auto;
+
+    }
+
+    .article img {
+        width: 370px;
+        margin: 0;
+        float: right;  
+    }
+
+    .article_text {
+        display: inline;
+    }
+
+    .mapBox {
+        box-sizing: border-box;
+        width: 80%;
+        padding: 5px;
+    }
+
+    .map {
+        float: left;
     }
 
     footer {
-        max-width: 90%;
+        width: 80%;
     }
+
 }

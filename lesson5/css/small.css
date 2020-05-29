@@ -157,7 +157,6 @@ h2 {
     background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));
     box-shadow: 0 5px 25px #ffffff;
     color: black;
-    /opacity: 0.5;
     padding: 1rem 2rem;
     
 }
@@ -166,8 +165,38 @@ h2 {
     display: none;
 }
 
+.article {
+    box-sizing: border-box;
+    width: 95%;
+    background-color: skyblue;
+    /border: 1px solid;
+    margin: 25px auto;
+    margin-top: 40px;
+    text-align: left;
+    padding: 20px;
+}
+
+.article img {
+    width: 100%;
+    float: right; 
+}
+
+.article_text {
+    display: inline;
+    padding: 30px;  
+}
+
+.mapBox {
+    background-color: skyblue;
+    clear: both;
+    margin: auto;
+}
+
+iframe {
+    border: 2px solid white;
+}
+
 footer {
-    margin: 15px auto;
-    padding: 5px;
-    margin-top: 30px;
+    clear: both;
+    margin: auto;
 }
