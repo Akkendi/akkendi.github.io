@@ -18,6 +18,14 @@ header {
     justify-content: center; 
 }
 
+#banner{
+    background-color: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));
+    color: black;
+    padding: 5px;
+    text-align: center;
+    display: none;
+}
+
 .point {
     background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));
 }
