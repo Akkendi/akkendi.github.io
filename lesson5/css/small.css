@@ -3,22 +3,24 @@ body {
     text-align: center;
     min-width: 320px;
     font-family: 'Raleway', sans-serif;
-     
+
 }
 
-footer, header {
+footer,
+header {
     background-color: black;
     color: #fff;
     /*margin: 1.5rem auto;*/
     padding: 1rem;
     text-align: center;
 }
+
 header {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
-#banner{
+#banner {
     background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));
     color: black;
     padding: 1px;
@@ -32,24 +34,31 @@ header {
 .logo a h1 span:nth-child(1) {
     color: rgb(190, 32, 32);
 }
+
 .logo a h1 span:nth-child(2) {
     color: rgb(202, 108, 19);
 }
+
 .logo a h1 span:nth-child(3) {
     color: rgb(255, 251, 0);
 }
+
 .logo a h1 span:nth-child(4) {
     color: rgb(39, 178, 34);
 }
+
 .logo a h1 span:nth-child(5) {
     color: rgb(34, 173, 178);
 }
+
 .logo a h1 span:nth-child(6) {
     color: rgb(34, 72, 178);
 }
+
 .logo a h1 span:nth-child(7) {
     color: rgb(101, 34, 178);
 }
+
 /*.logo a h1 span:nth-child(10) {
     font-family: 'Pangolin', cursive;
     font-size: 70%;
@@ -82,7 +91,7 @@ header img {
 }
 
 nav {
-	background-color: skyblue;
+    background-color: skyblue;
     text-align: center;
     box-shadow: 0 2px 15px gray;
     padding: 0;
@@ -92,7 +101,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
+
 }
 
 nav li:first-child {
@@ -104,18 +113,18 @@ nav li {
 }
 
 nav ul li a {
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 0.75rem;
-	text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
     font-size: 0.95rem;
 }
 
 nav a:hover {
     font-size: 1rem;
     /*text-shadow: 0px 0px 5px rgba(255,255,255,0.9);*/
-    background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));    
+    background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));
 }
 
 .responsive li {
@@ -132,7 +141,7 @@ h2 {
     font-size: 1.75rem;
     margin: 50px 0 0 0;
 }
-  
+
 .contentbox {
     display: block;
     margin: 15px auto;
@@ -165,10 +174,10 @@ h2 {
     box-shadow: 0 5px 25px #ffffff;
     color: black;
     padding: 1rem 2rem;
-    
+
 }
 
-.forecast{
+.forecast {
     display: none;
 }
 
@@ -176,7 +185,6 @@ h2 {
     box-sizing: border-box;
     width: 95%;
     background-color: skyblue;
-    /border: 1px solid;
     margin: 25px auto;
     margin-top: 40px;
     text-align: left;
@@ -185,12 +193,12 @@ h2 {
 
 .article img {
     width: 100%;
-    float: right; 
+    float: right;
 }
 
 .article_text {
     display: inline;
-    padding: 30px;  
+    padding: 30px;
 }
 
 .mapBox {
@@ -200,7 +208,7 @@ h2 {
     padding: 5px;
 }
 
-.mapBox > div {
+.mapBox>div {
     line-height: 5px;
 }
 
