@@ -26,7 +26,6 @@
         padding: 20px;
         margin-left: auto; 
         margin-right: auto;
-        border: 1px solid black;
         background-color: skyblue
     }
     .forecast_table th, td {
@@ -67,13 +66,23 @@
         box-sizing: border-box;
         width: 80%;
         padding: 5px;
+        display: grid;
+        grid-template-columns: auto auto;
     }
 
     .map {
-        float: left;
+        grid-column: 1;
     }
 
+    .mapBox > div {
+        justify-self: center;
+        grid-column: 2;
+        line-height: normal;
+    }
+
+
     footer {
+        box-sizing: border-box;
         width: 80%;
     }
 

@@ -190,9 +190,17 @@ h2 {
     background-color: skyblue;
     clear: both;
     margin: auto;
+    padding: 5px;
+}
+
+.mapBox > div {
+    line-height: 5px;
 }
 
 iframe {
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
     border: 2px solid white;
 }
 
