@@ -1,5 +1,4 @@
 //humburger menu
-
 const hambutton = document.querySelector(".ham");
 hambutton.addEventListener("click", toggleMenu, false);
 
@@ -41,14 +40,14 @@ let fulldate = dayname + ", " + d.getDate() + " " + monthname + " " + year;
 document.getElementById("modifiedTime").textContent = fulldate;
 console.log(fulldate);
 
-document.getElementById("year").textContent = year;
-
-
+let b = new Date();
 const banner = document.getElementById("banner");
 
-if(d.getDay() == 5) {
-     banner.style.display = "block";
- }
- else {
-     banner.style.display = "none";
- }
+if(b.getDay() == 5) {
+  banner.style.display = "block";
+}
+else {
+  banner.style.display = "none";
+}
+
+
