@@ -1,4 +1,5 @@
 //humburger menu
+
 const hambutton = document.querySelector(".ham");
 hambutton.addEventListener("click", toggleMenu, false);
 
@@ -30,6 +31,7 @@ let months = [
   "November",
   "December"
 ];
+
 let d = new Date();
 let dayname = daynames[d.getDay()];
 let monthname = months[d.getMonth()];
@@ -40,3 +42,13 @@ document.getElementById("modifiedTime").textContent = fulldate;
 console.log(fulldate);
 
 document.getElementById("year").textContent = year;
+
+
+const banner = document.getElementById("banner");
+
+if(d.getDay() == 5) {
+     banner.style.display = "block";
+ }
+ else {
+     banner.style.display = "none";
+ }
