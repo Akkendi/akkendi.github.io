@@ -236,10 +236,6 @@ footer {
     height: auto;
 }
 
-figure {
-    /display: inline-block;
-}
-
 .container {
-    /box-sizing: border-box;
+    display: inline-block;
 }
