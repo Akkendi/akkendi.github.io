@@ -181,6 +181,13 @@ h2 {
     display: none;
 }
 
+.events {
+    padding: 0.5rem 0;
+    width: 95%;
+    margin: auto;
+    background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));
+}
+
 .article {
     box-sizing: border-box;
     width: 95%;

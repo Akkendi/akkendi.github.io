@@ -76,6 +76,10 @@
 
     }
 
+    .events {
+        width: 80%;
+    }
+
     .article {
         width: 80%;
         margin: 40px auto;
