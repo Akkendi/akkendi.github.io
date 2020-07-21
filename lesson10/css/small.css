@@ -177,7 +177,7 @@ h2 {
 
 }
 
-.forecast {
+.forecastdiv, .forecast{
     display: none;
 }
 

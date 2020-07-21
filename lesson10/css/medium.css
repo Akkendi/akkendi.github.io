@@ -1,10 +1,11 @@
 @media only screen and (min-width: 44.5em) {
-    nav ul { 
-        display: flex; 
+    nav ul {
+        display: flex;
     }
+
     nav ul li {
         display: block;
-        flex: 1 1 100%; 
+        flex: 1 1 100%;
     }
 
     nav li:first-child {
@@ -17,7 +18,7 @@
         margin: 20px auto;
     }
 
-    .forecast {
+    /*.forecast {
         display: block;
     }
 
@@ -44,6 +45,35 @@
     .forecast_table tr img {
         margin-top: 3px;
         width: 40px;
+    }*/
+    .forecast {
+        display: block;
+    }
+
+    .forecastdiv {
+        visibility: visible;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        width: 80%;
+        margin: auto;
+        background-color: skyblue;
+        position: relative;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .forecastdiv p:nth-child(1) {
+        padding: 0;
+        margin: 0;
+        padding: 15px;
+        background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));
+    }
+
+
+    div.forecastdiv div {
+        background-color: white;
+
     }
 
     .article {
@@ -55,7 +85,7 @@
     .article img {
         width: 370px;
         margin: 0;
-        float: right;  
+        float: right;
     }
 
     .article_text {
@@ -74,7 +104,7 @@
         grid-column: 1;
     }
 
-    .mapBox > div {
+    .mapBox>div {
         justify-self: center;
         grid-column: 2;
         line-height: normal;
@@ -88,8 +118,8 @@
 
     /*.gallery-pictures-grid {
         grid-template-columns: auto auto;
-    } */       
-    
+    } */
+
     .gallery-pictures-grid {
         column-count: 2;
         /*display: grid;
@@ -99,9 +129,9 @@
     }
 
     form {
-        display: inline-block;      
+        display: inline-block;
     }
-      
+
     .storm-center-form {
         width: 500px;
     }
@@ -115,9 +145,11 @@
     section:nth-child(odd) .picture {
         grid-column: 1;
     }
-    
+
     section:nth-child(odd) .info {
         grid-column: 2;
         grid-row: 1;
     }
+
+
 }
