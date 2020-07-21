@@ -1,0 +1,58 @@
+@media only screen and (min-width: 60em) {
+    .logo h1 {
+        font-size: 2.5rem;
+      }
+    .motto {
+        font-size: 1.2rem;
+        margin: 0 auto;
+    }
+
+    .hero_image img {
+        max-width: 70%;
+        position: relative;
+        margin-top: 10px;
+    }
+
+    /*.gallery-pictures-grid {
+        grid-template-columns: auto auto auto;
+    }*/
+
+    
+    .gallery-pictures-grid figure:hover {
+        box-shadow: 0 0 50px black;
+    }
+
+    .gallery-pictures-grid {
+        column-count: 3;
+        column-gap: 0px;
+        /*display: grid;
+        grid-template-columns: auto;
+        grid-gap: 0.5em;
+        text-align: center;*/
+    }
+    #towns {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /margin: 1rem;
+        grid-gap: 0px;
+    }
+  
+    .town {
+        display: flex;
+        flex-direction: column;
+
+        /*margin: 1rem;*/
+    }
+
+    div.info {
+        margin: 1rem auto;
+        width: 80%;
+        height: 80%;
+        background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));
+    } 
+    section.town {
+        
+        box-sizing: border-box;
+    }
+
+}
