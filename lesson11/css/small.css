@@ -1,0 +1,354 @@
+body {
+    height: 100%;
+    text-align: center;
+    min-width: 320px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+footer,
+header {
+    background-color: black;
+    color: #fff;
+    /*margin: 1.5rem auto;*/
+    padding: 1rem;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#banner {
+    background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));
+    color: black;
+    padding: 1px;
+    text-align: center;
+}
+
+.point {
+    background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));
+}
+
+.logo a h1 span:nth-child(1) {
+    color: rgb(190, 32, 32);
+}
+
+.logo a h1 span:nth-child(2) {
+    color: rgb(202, 108, 19);
+}
+
+.logo a h1 span:nth-child(3) {
+    color: rgb(255, 251, 0);
+}
+
+.logo a h1 span:nth-child(4) {
+    color: rgb(39, 178, 34);
+}
+
+.logo a h1 span:nth-child(5) {
+    color: rgb(34, 173, 178);
+}
+
+.logo a h1 span:nth-child(6) {
+    color: rgb(34, 72, 178);
+}
+
+.logo a h1 span:nth-child(7) {
+    color: rgb(101, 34, 178);
+}
+
+/*.logo a h1 span:nth-child(10) {
+    font-family: 'Pangolin', cursive;
+    font-size: 70%;
+    letter-spacing: 15px;
+    font-size: 0.95em;
+}*/
+
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    line-height: 1.6em;
+}
+
+.motto {
+    font-family: 'Pangolin', cursive;
+}
+
+.logo-icon {
+    box-sizing: border-box;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+.ham {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: skyblue;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li:first-child {
+    display: block;
+}
+
+nav li {
+    display: none;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    font-size: 1rem;
+    /*text-shadow: 0px 0px 5px rgba(255,255,255,0.9);*/
+    background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));
+}
+
+.responsive li {
+    display: block;
+}
+
+/*main span:first-child {
+    color: dodgerblue;
+}*/
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 1.75rem;
+    margin: 50px 0 0 0;
+}
+
+.contentbox {
+    display: block;
+    margin: 15px auto;
+    border: 1px dashed #444;
+    padding: 15px;
+    background-color: #eee;
+    font-family: 'Pangolin', cursive;
+    max-width: 80%;
+}
+
+.hero {
+    position: relative;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.weather_summery {
+    font-family: 'Pangolin', cursive;
+    position: absolute;
+    /*width: auto;
+    /height: auto;*/
+    top: 10%;
+    left: 5%;
+    line-height: 6px;
+    background: radial-gradient(rgb(231, 191, 14, 0.8), rgb(211, 65, 65, 0.6));
+    box-shadow: 0 5px 25px #ffffff;
+    color: black;
+    padding: 1rem 2rem;
+
+}
+
+.forecastdiv, .forecast{
+    display: none;
+}
+
+.article {
+    box-sizing: border-box;
+    width: 95%;
+    background-color: skyblue;
+    margin: 25px auto;
+    margin-top: 40px;
+    text-align: left;
+    padding: 20px;
+}
+
+.article img {
+    width: 100%;
+    float: right;
+}
+
+.article_text {
+    display: inline;
+    padding: 30px;
+}
+
+.mapBox {
+    background-color: skyblue;
+    clear: both;
+    margin: auto;
+    padding: 5px;
+}
+
+.mapBox>div {
+    line-height: 5px;
+}
+
+iframe {
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+
+footer {
+    clear: both;
+    margin: auto;
+}
+
+.gallery-pictures-grid {
+    margin-top: 10px;
+    column-count: 1;
+    column-gap: 0px;
+}
+
+
+.gallery-pictures-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: inline-block;
+}
+
+.storm-center-form input {
+    display: block;
+  }
+  
+  .storm-center-form ul {
+    list-style-type: none;
+  }
+  
+  .storm-center-form ul li {
+    padding: 10px;
+  }
+  
+  .storm-center-form .radio-options input {
+    float: left;
+    clear: none;
+    margin: 10px 0 4px 8px;
+  
+  }
+  
+  .storm-center-form .radio-options label {
+    float: left;
+    margin: 8px 5px;
+  }
+
+  .storm-center-form fieldset {
+    margin: 2rem .5rem;
+    text-align: left;
+    padding: .5rem 2%;
+  }
+  
+  .storm-center-form select {
+      display: block;
+      margin-top: 10px;
+  }
+  
+  .storm-center-form input {
+      margin-top: 10px;
+      padding: 5px;
+  }
+  
+  .storm-center-form textarea {
+
+      display: block;
+      margin-top: 5px;
+      width: 97%;
+      height: 70px;
+  }
+  
+  .storm-center-form .additional-label {
+      margin-top: 10px;
+  }
+  
+  .storm-center-form .radio-li {
+      margin-bottom: 30px;
+  }
+  
+  .storm-center-form #ratingvalue {
+    padding-left: 60px;
+  }
+  
+  .storm-center-main h1 {
+    color: #104547;
+    margin: 20px;
+  }
+
+  .thanks-main h1, h4 {
+    color: #104547;
+    margin: 20px;
+  }
+  
+  .grouping {
+    border: 1px solid #104547;
+    border-radius: 16px;
+    margin: 20px;;
+  }
+  
+  .grouping-header {
+    color: #104547;
+    margin: 20px 10px;
+    font-weight: bold;
+  }
+
+  .town {
+    display: grid;
+    grid-gap: 0px;
+    grid-auto-columns: auto;
+    justify-content: center;
+    width: 95%;
+    margin: 1rem auto;
+    background-color:skyblue;
+  }
+  
+  div.picture {
+    margin: 0 auto;
+  }
+  
+  div.picture img {
+    margin-bottom: 2rem;
+    padding: 1px;
+    width: 95%;
+    align-content: center;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  div.info p {
+    padding: 0px;
+    margin: .5rem;
+  }
+  
+  div.info h4 {
+    font-style: italic;
+  }
