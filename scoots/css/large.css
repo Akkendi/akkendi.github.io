@@ -15,13 +15,15 @@
     margin: 0;
   }
 
+
+  /*navigation*/
+
+  
+  
+
   /*home page */
 
-  .reserveButton {
-    font-size: 1.5em;
-  }
-
-  .homeInfoSection {
+.homeInfoSection {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
