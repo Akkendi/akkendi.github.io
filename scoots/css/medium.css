@@ -2,7 +2,6 @@
     /*navigation*/
   .navigation {
     display: flex;
-    font-size: 1.3rem;
   }
 
   .navigation li {
@@ -27,11 +26,11 @@
   /*home page*/
 
   .infoImg {
-    width: 400px;
+    width: 423px;
   }
 
   .card {
-    width: 400px;
+    width: 423px;
   }
 
   .weatherSection {

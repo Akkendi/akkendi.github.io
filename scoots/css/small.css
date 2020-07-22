@@ -5,193 +5,204 @@ body {
     font-size: 18px;
     margin: 0;
     color: black;
-  }
-  
-.logo-box {
-    width: 100px;
-    height: 100px;
 }
-  .logo-box img {
-      width: 100%;
-      height: 100%;
+
+/*.logo-box img {
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
     
-  }
-  .logo-box img:hover {
-      
+}
+
+.logo-box img:hover {
+
     transform: scale(1.05);
-  }
-  
-  h1 {
+}*/
+
+h1 {
     font-family: "Merriweather", serif;
     font-size: 32px;
-  }
-  
-  a {
-  text-decoration: none;
-  }
-  
-  header {
-      
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-  }
+    grid-template-columns: auto;
+}
 
-  /*navigation*/   
-  .navigation li:first-child {
+/*navigation*/
+.navigation li:first-child {
     display: block;
-  }
-  
-  .navigation li {
+}
+
+.navigation li {
     display: none;
-  }
-  
-  .responsive li {
-    display: block;
-  }
+}
 
-  .homeList {
+.responsive li {
+    display: block;
+}
+
+.homeList {
     color: #444;
-  }
-  nav a {
+}
+
+nav {
+    margin: 0 auto;
+}
+nav a {
     color: #999999;
     text-decoration: none;
     font-size: 16px;
-    line-height: 5px;
-  }
-  nav a:hover {
+    }
+
+nav a:hover {
     color: #444;
-  }
-  nav ul {
-    padding-top: 35px;
-    list-style: none;
-    /*display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));*/
-  }
-  nav ul li {
+}
+
+nav ul {
+    list-style: none; 
+}
+
+nav ul li {
     display: inline;
-    padding: 20px;
-  }
-  
-  
-  .home-paragraph-title {
+    padding-right: 50px;
+    padding-top: 5px;
+}
+
+
+.home-paragraph-title {
     padding: 0px 100px 0px 100px;
-  }
-  .home-grid {
+}
+
+.home-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr auto 1fr auto auto auto;
     grid-gap: 0.5em;
-  }
-  .home-headline-1 {
+}
+
+.home-headline-1 {
     text-align: center;
     padding-top: 30px;
     grid-column: 1/4;
     grid-row: 1/2;
-  }
-  .home-paragraph-1 {
+}
+
+.home-paragraph-1 {
     grid-column: 1/4;
     grid-row: 1/3;
     text-align: center;
     padding-top: 80px;
-  }
-  .home-right-img {
+}
+
+.home-right-img {
     padding-top: 50px;
     grid-column: 4/6;
     grid-row: 1/4;
-  }
-  .home-headline-2 {
+}
+
+.home-headline-2 {
     text-align: center;
     padding-top: 30px;
     grid-column: 3/6;
     grid-row: 3/4;
-  }
-  
-  .home-paragraph-2 {
+}
+
+.home-paragraph-2 {
     grid-column: 3/6;
     grid-row: 3/4;
     text-align: center;
     padding-top: 80px;
-  }
-  .home-left-img {
+}
+
+.home-left-img {
     padding-top: 50px;
     grid-column: 1/3;
     grid-row: 3/5;
-  }
-  
-  .home-paragraph-3 {
+}
+
+.home-paragraph-3 {
     padding-top: 30px;
     grid-column: 1/6;
     grid-row: 5/6;
     text-align: center;
-  }
-  
-  .home-left-img,
-  .home-right-img {
-      border: 10px solid white;
-      padding: 0px;
-      box-shadow: 5px 5px 5px 5px #999;
-  }
-  
-  
-  footer {
+}
+
+.home-left-img,
+.home-right-img {
+    border: 10px solid white;
+    padding: 0px;
+    box-shadow: 5px 5px 5px 5px #999;
+}
+
+
+footer {
     height: 75px;
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: 1fr 1fr 1fr;
-  }
-  footer img {
+}
+
+footer img {
     width: 40px;
     padding: 6px 3px 3px 3px;
-  }
-  
-  .contactFooter{
+}
+
+.contactFooter {
     position: absolute;
     width: 100%;
     bottom: 0;
-  }
-  
-  #selfPhoto {
+}
+
+#selfPhoto {
     text-align: center;
-  }
-  
-  .feedback {
+}
+
+.feedback {
     padding-top: 200px;
     text-align: left;
-  }
-  
-  .back-to-top {
-      clear: both;
-      display: block;
-      padding-bottom: 60px;
-      padding-top: 60px;
-      text-align: center;
-  }
-  .back-to-top a {
-      color: #999999;
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 18px;
-      text-transform: normal;
-  }
-  .back-to-top a:hover {
-      color: #444; 
-  }
-  
-  .back-to-top .arrow {
-      margin-right: 10px;
-  }
-  
-  .preserve-whitespace {
-      white-space: pre-wrap;
-  }
-  
-  .project-grid {
+}
+
+.back-to-top {
+    clear: both;
+    display: block;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.back-to-top a {
+    color: #999999;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: normal;
+}
+
+.back-to-top a:hover {
+    color: #444;
+}
+
+.back-to-top .arrow {
+    margin-right: 10px;
+}
+
+.preserve-whitespace {
+    white-space: pre-wrap;
+}
+
+.project-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap: 0.5em;
-  }
-  /*.project-grid .list--image {
+}
+
+/*.project-grid .list--image {
       background: black;
       opacity: 1;
   }
@@ -199,259 +210,266 @@ body {
   .list--image:hover .project-left-img1{
      opacity: 0.8;
   }*/
-  .project-wrap-img {
+.project-wrap-img {
     background: #000;
     overflow: hidden;
-    
-  }
-  
-  .project-wrap-img img {
+
+}
+
+.project-wrap-img img {
     opacity: 1;
-    transition: opacity 900ms linear, transform 900ms linear;  /* Плавное изменение прозрачности и увеличения */
-    display: block; /* Убираем полосу под картинкий */
-  }
-  .project-wrap-img img:hover {
+    transition: opacity 900ms linear, transform 900ms linear;
+    /* Плавное изменение прозрачности и увеличения */
+    display: block;
+    /* Убираем полосу под картинкий */
+}
+
+.project-wrap-img img:hover {
     cursor: pointer;
-    opacity: 0.9; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
-    transform: scale(1.1); /* Увеличение картинки */
-  }
+    opacity: 0.9;
+    /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
+    transform: scale(1.1);
+    /* Увеличение картинки */
+}
 
 
 
 
-  .headerBox {
-    background-image: url("../images/graysand1000.jpg");
-    color: white;
+.headerBox {
+    background-image: url("../images/desert-3001909_960_720.jpg");
+    color: black;
     text-align: center;
     padding: 40px;
-  }
-  
-  .reserveButton {
+}
+
+.reserveButton {
     margin: 20px;
     padding: 10px;
     background-color: #444444;
     color: white;
-  }
-  
-  
-  .homeInfoSection {
+}
+
+
+.homeInfoSection {
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
     justify-items: center;
     padding: 10px;
-  }
-  
-  .infoImg {
+}
+
+.infoImg {
     width: 250px;
-  }
-  
-  .card {
-    background-color: #444444;
+}
+
+.card {
+    background-color: #797979;
     width: 350px;
     text-align: center;
     margin: 20px;
     border-bottom: 9px solid #C94A18;
-  }
-  
-  .container {
+}
+
+.container {
     padding: 2px 16px;
-  }
-  
-  .button {
-    background-color: #999999;
-    box-shadow: -2px -2px 2px 0px rgba(122, 122, 122, 1);
+}
+
+.button {
+    background-color: #c07c24;
     border: none;
     color: black;
     padding: 15px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 16px;
     margin: 10px 10px;
     cursor: pointer;
-  }
-  
-  .weatherSection {
+}
+
+.weatherSection {
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-   
-  }
-  
-  .weatherSummary {
-    background-color: #444444;
+
+}
+
+.weatherSummary {
+    background-color: #797979;
     padding: 20px;
     margin: 30px;
     width: 50%;
     font-size: 1em;
     text-align: center;
     border-bottom: 9px solid #C94A18;
-  }
-  
-  /*rentals page*/
-  
-  .rentalSection {
+}
+
+/*rentals page*/
+
+.rentalSection {
     text-align: center;
-  }
-  
-  .rentalSection h3 {
+}
+
+.rentalSection h3 {
     padding-top: 50px;
-  }
-  
-  .servicesDiv {
+}
+
+.servicesDiv {
     border: 1px solid #C94A18;
     width: 100%;
     display: inline-block;
     text-align: left;
     margin: 5px;
-  }
-  .servicesDiv p {
+}
+
+.servicesDiv p {
     padding-left: 5px;
     padding-right: 5px;
-  }
-  
-  
-  table {
+}
+
+
+table {
     display: inline-block;
     text-align: left;
     border-collapse: collapse;
     margin: 20px;
-  }
-  
-  table, th, td {
-    border: 1px solid #C94A18;
-  }
-  
-  th, td {
+}
+
+table,
+th,
+td {
+    border: 1px solid #000000;
+}
+
+th,
+td {
     padding: 5px;
-  }
-  
-    
-  
-  
-  /*reservations page*/
-  
-  form {
+}
+
+
+
+
+/*reservations page*/
+
+form {
     padding: 20px;
     margin: auto;
-  }
-  
-  form fieldset {
+}
+
+form fieldset {
     margin: 2rem 0;
-    border: 1px solid #C94A18;
+    border: 1px solid black;
     border-radius: 10px;
     padding: .5rem 2%;
-  }
-  
-  form legend {
-    color: white;
+}
+
+form legend {
     margin: 1rem 1rem;
     padding: 0 .5rem;
-  }
-  
-  form label.top,
-  form div {
+}
+
+form label.top,
+form div {
     display: block;
     padding-top: 1rem;
-    color: white;
     font-size: 1rem;
-  }
-  
-  form label.top input,
-  form label.top select {
+}
+
+form label.top input,
+form label.top select {
     display: block;
     font-size: 1rem;
     border: solid 1px white;
     border-radius: 4px;
     padding: .75rem;
-    color: white;
     width: 100%;
     max-width: 20rem;
     background-color: rgb(0, 0, 0, 0.1);
-  }
-  
-  form label.sbs {
+}
+
+form label.sbs {
     display: block;
     padding: .75rem;
     color: white;
-  }
-  
-  
-  form input.submitBtn {
+}
+
+
+form input.submitBtn {
     border: none;
-    background-color: white;
+    background-color: #c91818;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
-  }
-  
-  form label.top input:required {
-    border-left: #C94A18 solid 6px;
-  }
-  
-  form label.top input:required:valid {
+}
+
+form label.top input:required {
+    border-left: #c91818 solid 6px;
+}
+
+form label.top input:required:valid {
     border-left: green solid 6px;
-  }
-  
-  .agreement {
+}
+
+.agreement {
     font-size: .6rem;
-    width: 60%;
-  }
-  
-  
-  /*desposit page*/
-  
-  
-  
-  /*contact page*/
-  
-  .locationDiv {
+    width: 80%;
+}
+
+
+/*desposit page*/
+
+
+
+/*contact page*/
+
+.locationDiv {
     text-align: center;
     padding: 10px;
-  }
-  
-  iframe {
+}
+
+iframe {
     margin: 0px;
-  }
-  
-  
-  /*thanks page*/
-  
-  .thanks {
+}
+
+
+/*thanks page*/
+
+.thanks {
     text-align: center;
     height: 900px;
     padding-top: 50px;
-  }
+}
 
-  /*tours page*/
+/*tours page*/
 
-  .project-wrap-img {
-      position: relative;
-      display: inline-block;
-  }
+.project-wrap-img {
+    position: relative;
+    display: inline-block;
+}
 
-  .project-wrap-img .text {
-      position: absolute;
-        margin:  auto;
-        left: 0;
-        right: 0;        
-        text-align: center;
-        top: 4%; /* Adjust this value to move the positioned div up and down */
-        background: rgba(63, 63, 63, 0.8);
-        font-family: Arial,sans-serif;
-        color: #fff;
-        width: 60%; /* Set the width of the positioned div */
-  }
-  
-  .project-wrap-img .text p, h2 {
-        margin: 5px;
-  }
+.project-wrap-img .text {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 0%;
+    /* Adjust this value to move the positioned div up and down */
+    font-family: Arial, sans-serif;
+    color: #fff;
+    width: 60%;
+    /* Set the width of the positioned div */
+}
 
-  .project-grid {
-      display: grid;
-      grid-template-columns: auto;
-  }
+.project-wrap-img .text p,
+h2 {
+    margin: 5px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: auto;
+}

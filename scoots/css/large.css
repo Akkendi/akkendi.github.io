@@ -1,4 +1,4 @@
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 72em) {
     /*header sizes*/
 
   h1 {
@@ -15,26 +15,6 @@
     margin: 0;
   }
 
-
-  /*navigation*/
-  .navigation {
-    display: flex;
-    font-size: 1.5rem;
-  }
-
-  .navigation li {
-    display: block;
-    flex: 1 1 auto;
-  }
-
-  .navigation a {
-    text-align: center;
-  }
-
-  .navigation li:first-child {
-    display: none;
-  }
-
   /*home page */
 
   .reserveButton {
@@ -45,15 +25,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    width: 100%;
   }
 
   .infoImg {
-    width: 500px;
+    width: 350px;
   }
 
   .card {
-    width: 500px;
+    width: 350px;
   }
 
   /*rentals page*/
